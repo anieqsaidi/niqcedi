@@ -1,0 +1,13 @@
+/* You can customize theme styles here */
+
+.contact.row.pt-2 {
+    place-content: center;
+    text-align: center;
+}
+h2.contact {
+    padding: 0px 0px;
+    text-align: center;
+}
+.contact {
+    padding: 30px 0px;
+}

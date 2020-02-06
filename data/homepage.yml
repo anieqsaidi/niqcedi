@@ -1,0 +1,228 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Anieq."
+  subtitle: "A Web   Developer"
+  description: "I work at <a target='_blank' href='http://vindagroupsea.com/'>Vinda Group SEA</a>, a fast-moving consumer goods company in Shah Alam, Malaysia. Keep cool, stay in touch. You may also visit my other resume website <a target='_blank' href='https://anieqsaidi.web.app'>here</a>."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/aniqsaidi/"
+
+    - icon: "github"
+      URL: "https://github.com/anieqsaidi/"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/anieqsaidi/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/anieqsaidi"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    A final year student of Universiti Malaysia Pahang in Bachelor of Computer Science 
+    (Software Engineering) with Honors. Majored in Software Engineering and have a 
+    immense interest in the field of Computer Science. A very active student who has 
+    held many positions throughout the years in university.
+    </p>
+    <p class="lead">
+    Have a huge interest in 
+    event management as well. Have organized and participated in many high impact programs. 
+    Currently undergoing an internship at Vinda Group SEA (Vinda Malaysia Sdn Bhd) in the 
+    IT department as a Web Developer.
+    </p>'
+  # button:
+  #   icon: "icon-smile-fill"
+  #   btnText: "About Me"
+  #   URL: "https://www.linkedin.com/company/radity/"
+  image:
+    x: "img/who-am-i/home.png"
+    _2x: "img/who-am-i/home@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Universiti Malaysia Pahang (UMP)"
+      year: "2015 - Present"
+      degree: "Bachelor of Computer Science (Software Engineering) with Honours"
+
+    - university: "Kelantan Matriculation College (KMKt)"
+      year: "2014 - 2015"
+      degree: "Certificate of Engineering Science"
+      
+    - university: "Sekolah Menengah Kebangsaan Bandar Baru Sungai Buloh (SMKBBSB)"
+      year: "2009 - 2013"
+      degree: "Malaysia Certificate of Education"
+      
+    - university: "Sekolah Kebangsaan Sungai Pelong (SKSP)"
+      year: "2003 - 2008"
+      degree: "Primary School Achievement Test"
+      
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "During internship, I have been exposed to a lot of new knowledges which helped me to enhance my skills as a Web Developer."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/aniqsaidi/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "View Resume"
+    URL: "https://drive.google.com/file/d/0BxwgdfUUXud_SWF1TnZzVEdGN015dkJ2R05xbDMwNlhsREdZ/view?usp=sharing"
+
+  items:
+    - title: "IT Intern (Web Developer)"
+      company: "Vinda Group SEA"
+      duration: "Sept 2019 - Present"
+
+    - title: "Children Books Sorter and Management Team"
+      company: "Big Bad Wolf Books Sdn Bhd"
+      duration: "Mar 2019 - April 2019"
+
+    - title: "Cashier"
+      company: "MPH Bookstores Sdn Bhd"
+      duration: "Mar 2014 - May 2014"
+
+# Client & Work
+client_and_work:
+  title: "Project"
+  enable: true
+
+  # clients:
+  #   - logo:
+  #       x: "img/clients/Webp.net-resizeimage.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
+
+  #   - logo:
+  #       x: "img/clients/earth-2.png"
+  #       _2x: "img/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
+
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
+
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
+
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
+
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
+
+  works:
+    - title: "Vinda Apps Zone"
+      description: "Internship Project. A web-based portal which compiles the internal and external links related to the company’s performance for everyday use."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "/img/works/appszone.png"
+      image:
+        x: "img/works/appszone.png"
+        _2x: "img/works/appszone@2x.png"
+      is_even: true
+
+    - title: "Naturel Kiss Online Shopping"
+      description: "Final Year Project. An online shopping mobile application which allows the user to view, search, add to cart and checkout the products available based on the catalogue provided by the Naturel Kiss Company."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "http://umpir.ump.edu.my/id/eprint/26655/"
+      image:
+        x: "img/works/nkos.png"
+        _2x: "img/works/nkos@2x.png"
+      is_even: false
+
+    - title: "E-Aduan Hygiene System for Kolej Kediaman Cafeteria in UMP"
+      description: "iCE-CInno Competition. An effective complaint system has been established to curb with the problem that is faced by the students of UMP regarding the hygiene and food quality of the cafeteria in every residential college."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://icecinno.ump.edu.my/index.php/en/documents/pdf-files/proceeding-2016/46-icecinno16-41/file"
+      image:
+        x: "img/works/icinno.jpg"
+        _2x: "img/works/icinno@2x.png"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Inspiration"
+  items:
+    - name: "Elon Musk"
+      position: "Founder & CEO, SpaceX"
+      content: "When something is important enough, you do it even if the odds are not in your favor."
+      image:
+        x: "img/testimonials/elon.jpg"
+        _2x: "img/testimonials/elon.jpg"
+
+    - name: "Jack Ma"
+      position: "Co-Founder, Alibaba Group"
+      content: "Never give up. Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine."
+      image:
+        x: "img/testimonials/jack.jpg"
+        _2x: "img/testimonials/jack.jpg"
+
+    - name: "Bill Gates"
+      position: "Co-Founder, Microsoft"
+      content: "Technology is just a tool. In terms of getting the kids working together and motivating them, the teacher is the most important."
+      image:
+        x: "img/testimonials/bill.jpg"
+        _2x: "img/testimonials/bill.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  # form:
+  #   action: "#"
+  #   full_name: "Full Name"
+  #   email: "Email Address"
+  #   message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+60 19-242 7685"
+  email:
+    title: "Email"
+    email: '<a href="mailto:aniq_mpp@ump.edu.my">aniq_mpp@ump.edu.my</a>'
+  address:
+    title: "Address"
+    address: "Universiti Malaysia Pahang, Lebuhraya Tun Razak, 26300 Gambang, Pahang Darul Makmur."
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

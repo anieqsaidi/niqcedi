@@ -1,0 +1,67 @@
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Education"
+  URL = "#education"
+  weight = 3
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 4
+
+  [[menu.header]]
+  name = "Project"
+  URL = "#portfolio"
+  weight = 5
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 6
+
+
+[params]
+
+  googleTagManagerID = "GTM-WPM56W5" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "Anieq"
+    text2 = "Saidi"
+
+  [params.footer]
+      copyright = "© 2020 Anieq Saidi. All rights reserved."
+      [params.footer.radity_logo]
+        x = "img/general/anieqsaidi.svg"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Anieq Saidi"
